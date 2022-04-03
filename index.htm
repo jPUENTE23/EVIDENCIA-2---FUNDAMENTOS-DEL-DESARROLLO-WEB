@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <script src="funciones.js"></script>
+    <div id="contenedorForm">
+
+        <div id="contendorEnzabezado">
+            <div id="divTitle">
+                <h1 id="titulo">FORMULARIO <br> DE REGISTRO</h1>
+            </div>
+            <div id="divImg">
+                <img src="IMG/grupo.png" alt="" id="imgGrupo">
+            </div>
+        </div>
+
+
+        <form>
+            <!--Nombre-->
+            <label for="inputNombre" class="titulos" id="nombre">Nombre</label><br>
+            <input type="text" id="inputNombre" class="entradaDatos titulos"><br>
+
+            <!--Apellidos-->
+            <label for="inputApellidos" class="titulos" id="apellidos">Apellidos</label><br>
+            <input type="text" id="inputApellidos" class="entradaDatos titulos"><br>
+
+            <!--Sexo-->
+            <div id="elementoSexo">
+                <label for="" class="titulos" id="labelSex">Sexo</label> | 
+
+                <input type="radio" id="rmujer" name="rsexo" value="Mujer" 
+                ><label for="rmujer" class="titulos" id="muj" >Mujer</label>
+
+                <input type="radio" id="rhombre" name="rsexo" value="Hombre">
+                <label for="rhombre" class="titulos" id="hom">Hombre</label> <br>
+            </div>
+            
+
+            <!--Correo-->
+            <label for="inputCorreo" class="titulos" id="correo" >Correo</label><br>
+            <input type="text" id="inputCorreo" class="entradaDatos" ><br>
+
+            <!--Poblacion-->
+            <label for="selectPoblacion" class="titulos" id="poblacion">Poblacion</label><br>
+            <select id="selectPoblacion" class="entradaDatos" title="Selecciona una Poblacion">
+                <!-- <option>Selecciona una Poblacion</option> -->
+                <option value="Alicante">Alicante</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Valencia">Valencia</option>
+            </select><br>
+
+            <!--Descripcion-->
+            <label for="" class="titulos" id="descripcion" >Descripcion</label><br>
+            <textarea name="textDescrp" id="txtDesc" class="entradaDatos" cols="30" rows="10"></textarea><br>
+
+            <!--Permisos-->
+            <input type="checkbox" name="checkPermisos" id="checkInfo">
+            <label for="" class="titulos" id="info" >Deseo recibir información sobre novedades y ofertas</label><br>
+
+            <input type="checkbox" name="checkPermisos" id="checkCondicion" >
+            <label for="" class="titulos" id="condicioens" >Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+
+            <div id="elementoBoton">
+                <button type="button" class="botones" id="btnEnviar" onclick="validarInformacion()">Enviar</button>
+                <button type="button" class="botones" id="botonTraduccion" onclick="traduccionIngles()">Traducir a Ingles</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

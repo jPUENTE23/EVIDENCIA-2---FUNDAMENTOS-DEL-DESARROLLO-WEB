@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedorForm {
+    margin: auto;
+    margin-top: 20px;
+    border: solid black 0px;
+    width: 500px;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: white;
+    background: linear-gradient(#3388d3, #6FB7F7);
+}
+
+.entradaDatos{
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+
+#inputNombre,#inputApellidos, #txtDesc, #selectPoblacion, #inputCorreo {
+    color: black;
+    font-family: "Tw Cen MT" ;
+    font-size: 20px;
+}
+
+.titulos {
+    font-family: "Tw Cen MT" ;
+    font-size: 20px;
+    color: white;
+}
+
+h1{
+    font-family: "Tw Cen MT";
+    font-weight: bold;
+    text-align: left;
+    font-size: 50px;
+    color: white;
+}
+
+#labelSex {
+    margin-bottom: 15px;
+}
+
+#elementoBoton{
+    margin: auto;
+    margin-top: 15px;
+    border: solid 0px black;
+}
+
+#elementoSexo{
+    margin-bottom: 15px;
+}
+
+#txtDesc{
+    height: 100px;
+}
+
+.botones{
+    background-color: #435A8E;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    font-family: "Tw Cen MT";
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#imgGrupo{
+    /* width: 150px;
+    height: 150px;
+    margin-left: 350px;
+    margin-top: 10px; */
+    top: 60px;
+    right: 510px;
+    width: 150px;
+    height: 150px;
+
+}
+
+#divTitle{
+    width: 300px;
+}
+
+#divImg{
+    width: 150px;
+    margin-left: 350px;
+    margin-top: -165px;
+}
+
+
+
+
